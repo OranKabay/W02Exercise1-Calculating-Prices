@@ -10,7 +10,7 @@ public class W02Exercise1 {
         System.out.println("Price 3:");
         double priceOfBurger3 = customer.nextDouble();
         double averagePriceOfBurgers = (priceOfBurger1 + priceOfBurger2 + priceOfBurger3)/3;
-        System.out.println("The average age of the three burgers is £" + averagePriceOfBurgers + ".");
+        System.out.println("The average price is " + averagePriceOfBurgers);
     }
 
 }
